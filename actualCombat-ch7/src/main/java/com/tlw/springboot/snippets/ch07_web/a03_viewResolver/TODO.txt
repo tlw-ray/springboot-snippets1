@@ -1,0 +1,11 @@
+P182:
+
+自动配置ViewResolver
+
+    ViewResolver:
+        ContentNegotiationViewResolver
+        BeanNameViewResolver
+        InternalResourceViewResolver
+自动配置静态资源
+自动配置Formatter和Converter
+自动配置HttpMessageConverters
