@@ -23,6 +23,8 @@
         <module>actualCombat-ch7_8</module>
         <module>actualCombat-ch8</module>
         <module>actualCombat-ch9</module>
+        <module>actualCombat-ch10</module>
+        <module>actualCombat-ch11</module>
     </modules>
 
     <properties>
@@ -40,5 +42,14 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
 
 </project>

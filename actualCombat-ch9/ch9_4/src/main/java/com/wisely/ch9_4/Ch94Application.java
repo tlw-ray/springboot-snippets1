@@ -59,7 +59,7 @@ public class Ch94Application {
 		return IntegrationFlows.from(MessageChannels.queue("releasesChannel", 10)) //1
 				.<SyndEntry, String> transform(
 						payload -> "《" + payload.getTitle() + "》 " + payload.getLink() + getProperty("line.separator")) //2
-				.handle(Files.outboundAdapter(new File("e:/springblog")) //3
+				.handle(Files.outboundAdapter(new File("springblog/")) //3
 						.fileExistsMode(FileExistsMode.APPEND) //4
 						.charset("UTF-8") //5
 						.fileNameGenerator(message -> "releases.txt") //6
@@ -72,7 +72,7 @@ public class Ch94Application {
 		return IntegrationFlows.from(MessageChannels.queue("engineeringChannel", 10))
 				.<SyndEntry, String> transform(
 						payload -> "《" + payload.getTitle() + "》 " + payload.getLink() + getProperty("line.separator"))
-				.handle(Files.outboundAdapter(new File("e:/springblog"))
+				.handle(Files.outboundAdapter(new File("springblog/"))
 						.fileExistsMode(FileExistsMode.APPEND)
 						.charset("UTF-8")
 						.fileNameGenerator(message -> "engineering.txt")
@@ -88,12 +88,12 @@ public class Ch94Application {
 				.enrichHeaders( //1
 						Mail.headers()
 						.subject("来自Spring的新闻")
-						.to("wisely-man@126.com")
-						.from("wisely-man@126.com"))
-				.handle(Mail.outboundAdapter("smtp.126.com") //2
+						.to("tlw_ray@163.com")
+						.from("tlw_ray@163.com"))
+				.handle(Mail.outboundAdapter("smtp.163.com") //2
 						.port(25)
 						.protocol("smtp")
-						.credentials("wisely-man@126.com", "******")
+						.credentials("tlw_ray@126.com", "******")
 						.javaMailProperties(p -> p.put("mail.debug", "false")), e -> e.id("smtpOut"))
 				.get();
 	}

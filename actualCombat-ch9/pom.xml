@@ -12,4 +12,14 @@
     <artifactId>actualCombat-ch9</artifactId>
     <packaging>pom</packaging>
 
+    <modules>
+        <module>ch9_1</module>
+        <module>ch9_2</module>
+        <module>ch9_3_4</module>
+        <module>ch9_3_5</module>
+        <!-- TODO 暂时未将ch9_4编译通过并执行-->
+        <!--<module>ch9_4</module>-->
+
+    </modules>
+
 </project>
