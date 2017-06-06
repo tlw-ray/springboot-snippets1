@@ -1,10 +1,6 @@
 package com.wisely.ch9_4;
 
-import static java.lang.System.getProperty;
-
-import java.io.File;
-import java.io.IOException;
-
+import com.rometools.rome.feed.synd.SyndEntry;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -20,7 +16,10 @@ import org.springframework.integration.feed.inbound.FeedEntryMessageSource;
 import org.springframework.integration.file.support.FileExistsMode;
 import org.springframework.integration.scheduling.PollerMetadata;
 
-import com.rometools.rome.feed.synd.SyndEntry;
+import java.io.File;
+import java.io.IOException;
+
+import static java.lang.System.getProperty;
 
 @SpringBootApplication
 public class Ch94Application {
