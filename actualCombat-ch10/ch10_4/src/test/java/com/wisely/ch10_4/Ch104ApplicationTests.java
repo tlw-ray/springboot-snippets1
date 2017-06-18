@@ -21,7 +21,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.wisely.ch10_4.dao.PersonRepository;
 import com.wisely.ch10_4.domain.Person;
 
-
+//Before SpringBoot1.4
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = Ch104Application.class) //1
 @WebAppConfiguration
