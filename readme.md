@@ -10,18 +10,26 @@
 
 ## 内容
 
-### actualCombat-ch05
+### ch01_02_03_spring4
+
+- 第1-3章 spring有关的内容
+
+### ch04_springmvc4
+
+- 第4章: springweb有关内容
+
+### ch05_controller
 
 - a01: RestController 示例
 - a02: 在代码中禁止Web容器运行
 
-### actualCombat-ch06
+### ch06_config
 
 - a01: Properties 注入属性文件中的值
 - a02: safe-Properties 使用类和属性文件注入对象
 - a03: profile 通过profile选择配置文件
 
-### actualCombat-ch07
+### ch07_web
 
 - a01: thymeleaf
 - a02: thymeleaf
@@ -31,11 +39,11 @@
 - a07: websocket_radio
 - a08: websocket_p2p
 
-### actualCombat-ch07_8
+### ch07_web_angularJS
 
 - angularJS
 
-### actualCombat-ch08
+### ch08_data
 
 - ch8_2: JPA custom repository
 - ch8_3: data rest
@@ -44,7 +52,7 @@
 - ch8_6_1: MangoDB
 - ch8_6_2: Redis
 
-### actualCombat-ch09
+### ch09_data2
 
 - ch9_1: Security
 - ch9_2: Batch data
@@ -52,16 +60,16 @@
 - ch9_3_5: RabbitMQ
 - ch9_4: Spring Integration
 
-### actualCombat-ch10
+### ch10_deploy
 
 - ch10: Hot deploy
 - ch10_4: Spring test
 - ch10docker: docker
 - ch10war: package as war
 
-### actualCombat-ch11
+### ch11_monitor
 
 - ch11_1: 监控
 - ch11_3: SSH TELNET 控制
 
-### ch12 Cloud
+### ch12_cloud
