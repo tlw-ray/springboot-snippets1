@@ -9,19 +9,18 @@
         <artifactId>springboot-snippets1</artifactId>
         <groupId>com.tlw</groupId>
         <version>1.0</version>
-        <relativePath>../</relativePath>
     </parent>
 
-    <artifactId>ch8_data</artifactId>
+    <artifactId>ch08_data</artifactId>
     <packaging>pom</packaging>
 
     <modules>
-        <module>ch8_2</module>
-        <module>ch8_3</module>
-        <module>ch8_4</module>
-        <module>ch8_5</module>
-        <module>ch8_6_1</module>
-        <module>ch8_6_2</module>
+        <module>ch08_2</module>
+        <module>ch08_3</module>
+        <module>ch08_4</module>
+        <module>ch08_5</module>
+        <module>ch08_6_1</module>
+        <module>ch08_6_2</module>
     </modules>
 
     <dependencies>

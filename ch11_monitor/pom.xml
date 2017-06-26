@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>actualCombat-ch11</artifactId>
+    <artifactId>ch11_monitor</artifactId>
     <packaging>pom</packaging>
 
     <modules>

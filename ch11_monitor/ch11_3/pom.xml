@@ -8,7 +8,7 @@
 
 	<parent>
 		<groupId>com.tlw</groupId>
-		<artifactId>actualCombat-ch11</artifactId>
+		<artifactId>ch11_monitor</artifactId>
 		<version>1.0</version>
 	</parent>
 

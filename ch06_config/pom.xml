@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ch6_config</artifactId>
+    <artifactId>ch06_config</artifactId>
 
     <!--
     <build>

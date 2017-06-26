@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ch7_web_angularJS</artifactId>
+    <artifactId>ch07_web_angularJS</artifactId>
 
     <packaging>jar</packaging>
 

@@ -8,7 +8,7 @@
 
 	<parent>
 		<groupId>com.tlw</groupId>
-		<artifactId>actualCombat-ch10</artifactId>
+		<artifactId>ch10_deploy</artifactId>
 		<version>1.0</version>
 	</parent>
 
